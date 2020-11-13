@@ -1,11 +1,9 @@
-#include <systemc.h>
 #include <iostream>
-#include <kpn.h>
+#include <systemc.h>
 
-using namespace std;
+#include "kpn.h"
 
-int sc_main(int argc, char* argv[])
-
+int sc_main(int, char**)
 {
     kpn kahn("kpn");
     sc_start();

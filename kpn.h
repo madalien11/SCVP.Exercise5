@@ -3,13 +3,12 @@
 
 #include <systemc.h>
 
-
 SC_MODULE(kpn)
 {
-  private:
+private:
     // ADD THINGS HERE
 
-  public:
+public:
     SC_CTOR(kpn) // : ADD THINGS HERE
     {
         // ADD THINGS HERE
